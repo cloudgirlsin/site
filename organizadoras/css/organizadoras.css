@@ -92,4 +92,64 @@
 }
 /* -- ======= Fim das Organizadoras ======= -- */
 
+/* -- ======= Imagem Fundo ======= -- */
+#teste{
+    width: 100%;
+    height: 636px;
+}
+/* -- ======= Imagem Fundo ======= -- */
 
+/* -- ======= Ínicio do Rodapé ======= -- */
+.footer_cg{
+    background-color: #cd1e78;
+}
+
+.icon_redes{
+    padding: 0.5rem;
+    text-align: left;
+    
+}
+
+.icones_redes_cg{
+    float: left;
+}
+
+.email_cg{
+    float: right;
+    font-size: 120%;
+    color: #ffffff;
+}
+/* -- ======= Fim do Rodapé ======= -- */
+
+/* ajuste para desktop*/
+
+@media only screen and (min-width: 769px){
+    .navbar {
+        background-color: #4848784d;
+    }
+
+    body, html {
+        width: 100%;
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .Nav_logo_img{
+        width: 3rem;
+    }
+    
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    } 
+ 
+    .img_cloud {
+        margin-top: 25%;
+        width: 35%;
+    }
+
+    .footer_cg{
+        margin-top: -10px;
+    }
+ 
+}
