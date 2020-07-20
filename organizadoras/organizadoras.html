@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/organizadoras.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous"/>
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
   <title>Organizadoras</title>
 </head>
 
@@ -16,40 +16,43 @@
   <!-- ======= Ínicio do Cabeçalho ======= -->
   <header>
     <div class="container" id="nav-container">
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="../image/logo.png" width="55" height="55" class="d-inline-block">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsite"
           aria-controls="navbarsite" aria-expanded="false" aria-label="toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarsite">
+        <div class="collapse navbar-collapse" id="navbarsite">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/index.html">Home<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link active" href="/index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link active" href="#">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./organizadoras.html">Organizadoras</a>
+              <a class="nav-link active" href="#">Organizadoras</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Eventos</a>
+              <a class="nav-link active" href="#">Eventos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
+              <a class="nav-link active" href="#">Mentoras</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Depoimentos</a>
+              <a class="nav-link active" href="#">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Apoiadores</a>
+              <a class="nav-link active" href="#">Apoiadores</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
-    <img src="./img/organizadoras.jpg" alt="" id="teste" >
+    <img src="./img/organizadoras.jpg" alt="" id="teste">
   </header>
   <!-- ======= Fim do Cabeçalho ======= -->
 
@@ -398,7 +401,6 @@
   </section>
   <!-- ======= Fim das Organizadoras ======= -->
 
-
   <!-- ======= Ínicio do Rodapé ======= -->
   <footer>
     <div class="footer_cg">
@@ -432,6 +434,14 @@
   <script src="./js/jquery-3.5.1.min.js"></script>
   <script src="./js/popper.min.js"></script>
   <script src="./js/bootstrap.js"></script>
+
+  <!-- js para fazer a trasição de cor do navbar -->
+  <script>
+    $(window).scroll(function () {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50)
+
+    });
+  </script>
 
 </body>
 
