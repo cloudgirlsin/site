@@ -6,6 +6,27 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* copiar toda essa parte para o navbar */
+.bg-dark{
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+    transition: 750ms ease;
+    background: rgba(205,30,120,0.8) !important;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+.nav-link:hover {
+    color:#696969 !important;
+    font-weight: bold;
+}
+
+/* ate aqui */
+
+
 .home_cg{
     padding:0;
     margin: 0;
@@ -161,19 +182,22 @@ body {
     float: left;
 }
 
+/* copiar o footer */
+
 .email_cg{
     float: right;
     font-size: 120%;
+    
+}
+
+a {
     color: #ffffff;
 }
+/* ate aqui */
 
 /* ajuste para desktop*/
 
 @media only screen and (min-width: 769px){
-    .navbar {
-        background-color: rgba(72, 72, 120, 0.3);
-    }
-
     body, html {
         width: 100%;
         height: 100%;
