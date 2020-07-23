@@ -8,13 +8,12 @@ body {
 
 /* copiar toda essa parte para o navbar */
 .bg-dark{
-    background: transparent !important;
-}
-
-.bg-dark.scrolled {
-    transition: 750ms ease;
     background: rgba(205,30,120,0.8) !important;
 }
+
+/*.bg-dark.scrolled {
+    transition: 750ms ease;
+    background: rgba(205,30,120,0.8) !important;*/
 
 .nav-link {
     font-size: 20px;
@@ -24,6 +23,10 @@ body {
     font-weight: bold;
 }
 
+.section-bg{
+    padding: 20px 0 !important;
+
+}
 /* ate aqui */
 
 
