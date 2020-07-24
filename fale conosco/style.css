@@ -1,0 +1,153 @@
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: 
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    color:black;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+
+
+/* Página de contato */
+.contato {
+    width: 940px;
+    margin: 40px auto;
+}
+
+.contato label, .input-group legend {
+    display: block;
+    margin: 0 0 5px;
+    font-size: 20px;
+}
+
+.campo-padrao, textarea {
+    display: block;
+    margin: 0 0 30px;
+    padding: 10px 20px;
+    width: 50%;
+    border: 1px solid #aaa;
+}
+
+.input-group {
+    margin: 0 0 20px;
+}
+
+.newsletter {
+    margin: 0 0 20px;
+}
+
+.botao {
+    margin: 20px 0 0;
+    width: 20%;
+    padding: 10px 20px;
+    font-size: 24px;
+    display: inline-block;
+    background: rgb(233, 23, 34);
+    color: rgb(116, 16, 16);
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.botao:hover {
+    cursor: pointer;
+    transform: scale(1.2);  
+}
+
+
+table {
+    margin: 12px 0 0;
+}
+
+th  {
+    background: #777777;
+    color: #FFFFFF;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 5px 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}   
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+    display: block;
+    font-size: 0 0 20px;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 40px 0;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background: rgb(82, 80, 81)
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background:rgb(224, 23, 23)
+    transform: scale(1.2);
+}
+
+
+
