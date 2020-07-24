@@ -1,0 +1,208 @@
+.logo_img{
+    width: 112.5px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* copiar toda essa parte para o navbar */
+.bg-dark{
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+    transition: 750ms ease;
+    background: rgba(205,30,120,0.8) !important;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+.nav-link:hover {
+    color:#696969 !important;
+    font-weight: bold;
+}
+
+/* ate aqui */
+
+.fundo {
+    margin: 0;
+    padding: 0;
+    background-image: url('../image/apoiadores.jpg');
+    max-width: 100%;
+    --height: 80;
+    background-size: 100% 100%;
+    background-position: center center;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.img_cloud {
+    margin-top: 8rem;
+}
+
+.texto_princ_cg {
+    margin-top: 1rem;
+}
+
+.apoiadores img {
+    width: 50%;
+    -webkit-filter: grayscale(100);
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 10px 0;
+  }
+  
+  .apoiadores img:hover {
+    -webkit-filter: none;
+    filter: none;
+    transform: scale(1.1);
+  }
+
+  .page-section {
+    padding: 6rem 0;
+  }
+  .page-section h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .page-section h3.section-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 4rem;
+  }
+
+  
+section#contact {
+    background-color: #f5f2fc;
+  }
+  section#contact .section-heading {
+    color: #cd1e78;
+  }
+
+  section#contact form#contactForm .form-group {
+    margin-bottom: 1.5rem;
+  }
+  section#contact form#contactForm .form-group input,
+  section#contact form#contactForm .form-group textarea {
+    padding: 1.25rem;
+  }
+  section#contact form#contactForm .form-group input.form-control {
+    height: auto;
+  }
+  section#contact form#contactForm .form-group-textarea {
+    height: 100%;
+  }
+  section#contact form#contactForm .form-group-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+  }
+  section#contact form#contactForm p.help-block {
+    margin: 0;
+  }
+  section#contact form#contactForm .form-control:focus {
+    border-color: #cd1e78;
+    box-shadow: none;
+  }
+  section#contact form#contactForm ::-webkit-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+  section#contact form#contactForm :-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+  section#contact form#contactForm ::-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+  section#contact form#contactForm :-ms-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #cd1e78;
+    border-color: #cd1e78;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #da378b;
+    border-color: #da378b;
+  }
+
+.footer_cg{
+    background-color: #cd1e78;
+}
+
+.icon_redes{
+    padding: 0.5rem;
+    text-align: left;
+    
+}
+
+.icones_redes_cg{
+    float: left;
+}
+
+/* copiar o footer */
+
+.email_cg{
+    float: right;
+    font-size: 120%;   
+}
+
+a {
+    color: #ffffff;
+}
+/* ate aqui */
+
+/* ajuste para desktop*/
+
+@media only screen and (min-width: 769px){
+    body, html {
+        width: 100%;
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .Nav_logo_img{
+        width: 3rem;
+    }
+    
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .fundo{
+        width: 100vw;
+        height: 60vh;
+        background-image: url('../image/apoiadores.jpg');
+        background-size: cover;
+      
+    }
+
+    .img_cloud {
+        margin-top: 10%;
+        width: 35%;
+    }
+
+    .footer_cg{
+        margin-top: -10px;
+    }
+ 
+}
+
+
