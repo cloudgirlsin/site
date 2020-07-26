@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #444444;
 }
 
@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#header {
+/* #header {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
@@ -81,13 +81,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   max-height: 40px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu ul {
+/* .nav-menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu .drop-down .drop-down > a:after {
     content: "\ea9d";
   }
-}
+} */
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
@@ -494,12 +494,12 @@ section {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   position: relative;
 }
 
-.section-title h2::before {
+/* .section-title h2::before {
   content: '';
   position: absolute;
   display: block;
@@ -519,7 +519,7 @@ section {
   background: #006fbe;
   bottom: 0;
   left: calc(50% - 20px);
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
@@ -1107,7 +1107,7 @@ section {
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
-.contact-us .info {
+/* .contact-us .info {
   width: 100%;
   background: #fff;
 }
@@ -1256,12 +1256,12 @@ section {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+/* #footer {
   background: #1d284b;
   color: #fff;
   font-size: 14px;
@@ -1326,4 +1326,4 @@ section {
 
 #footer .credits a:hover {
   color: #008df1;
-}
+} */
