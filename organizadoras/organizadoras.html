@@ -12,6 +12,8 @@
   <title>Cloud Girls</title>
 </head>
 
+
+
 <body>
 
   <!-- Ínicio do Cabeçalho -->
@@ -428,6 +430,19 @@
   <script src="./js/jquery-3.5.1.min.js"></script>
   <script src="./js/popper.min.js"></script>
   <script src="./js/bootstrap.js"></script>
+
+  <!-- ínicio plugin de acessibilidade -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <!-- fim plugin de acessibilidade -->
 
   <!-- js para fazer a trasição de cor do navbar -->
   <script>
