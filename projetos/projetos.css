@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----- Tamanho máximo ----- */
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 2000px;
+    padding: 0 10%;
+  }
+  .banner-site {
+   max-width: 2000px;
+  }
+}
+
+/* ----- Navbar ----- */
+.bg-dark{
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+    transition: 750ms ease;
+    background: rgba(205,30,120,0.8) !important;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+header .nav-link:hover {
+    color:#696969 !important;
+    font-weight: bold;
+}
+
+/* ----- Banner ----- */
+.banner-site {
+  width: 100%;
+}
+
+/* ----- jumbotron ------ */
+.jumbotron {
+    background: #4f4f8f;
+}
+
+.jumbotron p {
+    color: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #cd1e78;
+}
+
+.jumbotron .nav-link:hover {
+    color: #aaaacd !important;
+    font-weight: bold;
+}
+
+.botao-mentoria {
+    background: #aaaacd;
+    border: 0;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+    margin: 1em 3em 0 3em;
+  }
+
+  .botao-mentoria .nav-link {
+      font-size: 1em;
+  }
+
+  .botao-mentoria .nav-link:hover {
+      color: #4f4f8f !important;
+  }
+
+/* ----- Carrossel ----- */
+.recent-photos .owl-dot {
+   background-color: #aaaacd !important;
+  }
+  
+  .recent-photos .owl-dot.active {
+    background-color: #4f4f8f !important;
+  }
+
+/* ----- Footer ----- */
+.email_cg{
+    float: right;
+    font-size: 120%;
+    font-weight: 300;    
+}
+
+a {
+    color: #ffffff;
+}
+
+.footer_cg{
+    background: rgb(205,30,120);
+}
+
+.icon_redes {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.icones_redes_cg {
+    float: left;
+}
