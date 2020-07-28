@@ -17,6 +17,15 @@
 }
 /* fim do cabeçalho */
 
+h2, p {
+    font-family: "Roboto", sans-serif;
+    color: #4f4f8f;   
+}
+
+h2 {
+    font-weight: bold;
+}
+
 
 /* Início das Organizadoras */
 .team {
@@ -82,7 +91,7 @@
 }
   
 .team .member .social a:hover {
-    color: #8a2be2;
+    color: #4f4f8f;
 }
   
 .team .member .social i {
