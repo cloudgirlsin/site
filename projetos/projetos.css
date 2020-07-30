@@ -9,9 +9,6 @@ body {
     max-width: 2000px;
     padding: 0 10%;
   }
-  .banner-site {
-   max-width: 2000px;
-  }
 }
 
 /* ----- Navbar ----- */
@@ -34,8 +31,12 @@ header .nav-link:hover {
 }
 
 /* ----- Banner ----- */
-.banner-site {
+#hero {
   width: 100%;
+  height: 50vh;
+  background: url("image/banner-site32.png") top center;
+  background-size: cover;
+  position: relative;
 }
 
 /* ----- jumbotron ------ */
