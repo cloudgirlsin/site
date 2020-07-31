@@ -1,0 +1,22 @@
+{
+  "name": "cloud_girls",
+  "version": "1.0.0",
+  "description": "Desenvolvimento nova pagina Cloud Girls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cloud",
+    "Girls",
+    "Comunidade",
+    "empoderamento",
+    "feminimo"
+  ],
+  "author": "Edlaine Pontes",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}
