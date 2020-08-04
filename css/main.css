@@ -18,6 +18,7 @@ body {
 
 .nav-link {
     font-size: 20px;
+    font-family: "Open Sans", sans-serif;
 }
 .nav-link:hover {
     color:#696969 !important;
@@ -25,7 +26,21 @@ body {
 }
 
 /* ate aqui */
+@media (max-width: 991px) {
+    #nav-container .d-inline-block {
+        width: 0.1%;
+           
+    }
 
+    #nav-container .navbar{
+        padding: 0;
+    }
+
+    #bgvid {
+        margin-top: 55px !important;
+    }
+
+}   
 
 .home_cg{
     width: 100%;
@@ -114,7 +129,7 @@ body {
     background-color: #484878;
     background-size: cover;
     padding: 40px 0;
-    margin-top: -1.5%;
+    margin-top: -2.5%;
   }
 
   .cta {
@@ -141,6 +156,8 @@ body {
   @media (max-width: 991px) {
       #call-to-action .cloud_fundo .cta-btn {
           width: auto;
+          align-items: center;
+          margin-top: -3.5%;
       }
     }   
   
@@ -419,7 +436,7 @@ a:hover {
     }
     
     .Nav_logo_img{
-        width: 3rem;
+        width: 0.1rem;
     }
     
     .container-fluid {
