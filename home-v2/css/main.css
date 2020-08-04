@@ -114,7 +114,7 @@ body {
     background-color: #484878;
     background-size: cover;
     padding: 40px 0;
-    margin-top: 2%;
+    margin-top: -1.5%;
   }
 
   .cta {
@@ -316,7 +316,7 @@ body {
   
 #clients img {
     max-width: 80%;
-    opacity: 0.5;
+    
     transition: 0.3s;
     padding: 15px 0;
   }
@@ -336,7 +336,7 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #ddd;
+  
   }
   
 #clients .owl-dot.active {
