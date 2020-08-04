@@ -43,9 +43,15 @@ body {
     margin-top: 8rem;
 }
 
-.texto_princ_cg {
-    margin-top: 1rem;
+.titulos {
+    margin-top: 15%;
 }
+
+/*.titulo_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
 
 .apoiadores img {
     width: 50%;
