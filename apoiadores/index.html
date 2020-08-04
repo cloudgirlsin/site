@@ -63,9 +63,8 @@
         <div class="home_cg mb-2">
             <div class="container-fluid">
                 <div class="fundo">
-                    <div class="col-md text-center">
-                        <img class="img_cloud img-fluid" src="image/imagem_02.png" alt="Cloud Girls">
-                        <h2 class="texto_princ_cg">Apoiadores</h2>
+                    <div class="titulo_banner col-md text-center">
+                        <h1 class="text_apoiadores">Apoiadores</h1>
                     </div>
                 </div>
             </div>
@@ -130,31 +129,31 @@
                           <h2 class="section-heading text-uppercase">Seja um apoiador</h2>
                           <h3 class="section-subheading text-muted">Que tal ser um apoiador do Cloud Girls?</h3>
                       </div>
-                      <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                      <form class="contact-form" action="contactform.php" method="post">
                           <div class="row align-items-stretch mb-5">
                               <div class="col-md-6">
                                   <div class="form-group">
-                                      <input class="form-control" id="name" type="text" placeholder="Seu nome*" required="required" data-validation-required-message="Please enter your name." />
+                                      <input class="form-control" type="text" name="name" placeholder="Nome *" required="required" data-validation-required-message="Por favor, coloque o seu nome."/>
                                   </div>
                                   <div class="form-group">
-                                      <input class="form-control" id="email" type="email" placeholder="Seu e-mail *" required="required" data-validation-required-message="Please enter your email address." />
+                                      <input class="form-control" type="text" name="mail" placeholder="E-mail" required="required" data-validation-required-message="Por favor, coloque o seu e-mail." />
                                       <p class="help-block text-danger"></p>
                                   </div>
                                   <div class="form-group mb-md-0">
-                                      <input class="form-control" id="phone" type="tel" placeholder="Seu telefone *" required="required" data-validation-required-message="Please enter your phone number." />
+                                      <input class="form-control" id="phone" name="tel" type="tel" placeholder="Telefone *" required="required" data-validation-required-message="Por favor, coloque o seu número de telefone." />
                                       <p class="help-block text-danger"></p>
                                   </div>
                               </div>
                               <div class="col-md-6">
                                   <div class="form-group form-group-textarea mb-md-0">
-                                      <textarea class="form-control" id="message" placeholder="Sua mensagem *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                      <textarea class="form-control" name="message" id="message" placeholder="Mensagem *" required="required" data-validation-required-message="Por favor, coloque a sua mensagem."></textarea>
                                     
                                   </div>
                               </div>
                           </div>
                           <div class="text-center">
                               <div id="success"></div>
-                              <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar mensagem</button>
+                              <button class="btn btn-primary btn-xl text-uppercase" name="submit" id="sendMessageButton" type="submit">Enviar mensagem</button>
                           </div>
                       </form>
                   </div>
