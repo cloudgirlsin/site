@@ -29,7 +29,7 @@ body {
 .fundo {
     margin: 0;
     padding: 0;
-    background-image: url('../image/apoiadores.jpg');
+    background-image: url('../image/banner-site13.png');
     max-width: 100%;
     --height: 80;
     background-size: 100% 100%;
@@ -43,8 +43,15 @@ body {
     margin-top: 8rem;
 }
 
-.texto_princ_cg {
-    margin-top: 1rem;
+.titulo_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_apoiadores {
+  margin-top: 15%;
+  font-weight: bold;
 }
 
 .apoiadores img {
