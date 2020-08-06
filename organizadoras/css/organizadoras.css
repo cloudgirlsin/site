@@ -34,9 +34,9 @@
 }
   
 /* ----- Navbar ----- */
-.bg-dark{
+/* .bg-dark{
     background: transparent !important;
-}
+} */
   
 .bg-dark.scrolled {
     transition: 750ms ease;
