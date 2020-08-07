@@ -1,10 +1,3 @@
-/**
-* Template Name: MeFamily - v2.1.0
-* Template URL: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -304,15 +297,15 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+/*#hero {
   width: 100%;
   height: 80vh;
   background-color: rgba(22, 30, 56, 0.8);
   overflow: hidden;
   position: relative;
-}
+}*/
 
-#hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
+/*#hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -473,7 +466,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 120vh;
   }
 }
-
+*/
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
