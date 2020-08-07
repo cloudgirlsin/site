@@ -34,13 +34,13 @@
 }
   
 /* ----- Navbar ----- */
-/* .bg-dark{
+.bg-dark{
     background: transparent !important;
-} */
+}
   
 .bg-dark.scrolled {
     transition: 750ms ease;
-    background: rgba(205,30,120,0.8) !important;
+    background: #cd1e78cc !important;
 }
   
 .nav-link {
@@ -71,7 +71,11 @@ h2 {
 
 @media (max-width: 600px) {
     h2 {
-        font-size: 38px;
+        font-size: 38px;       
+    }
+
+    .bg-dark {
+        background: #cd1e78;
     }
 }
 
