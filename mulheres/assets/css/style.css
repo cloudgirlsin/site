@@ -25,26 +25,41 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-.bg-dark{
+.bg-dark {
   background: transparent !important;
 }
 
 .bg-dark.scrolled {
   transition: 750ms ease;
-  background: rgba(205,30,120,0.8) !important;
+  background: rgba(205, 30, 120, 0.8) !important;
+}
 
-}  
 
 .nav-link {
   font-size: 20px;
+  font-family: "Open Sans", sans-serif;
 }
-
 
 .nav-link:hover {
-  color:#696969 !important;
-  font-weight: bold;
+  text-decoration-line: underline;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 
+@media (max-width: 991px) {
+
+  #nav-container .navbar{
+      padding: 0;
+  }
+
+.nav-link {
+      font-size: 18px;
+      font-family: "Open Sans", sans-serif;
+      padding: 4px;
+  }
+  
+
+}   
 .section-bg{
   padding: 20px 0 !important;
 
@@ -581,28 +596,45 @@ section {
   color: #fff;
 }
 
-.footer_cg{
+.footer_cg {
   background-color: #cd1e78;
 }
 
-.icon_redes{
+.icon_redes {
   padding: 0.5rem;
   text-align: left;
-  
 }
 
-.icones_redes_cg{
+.icones_redes_cg {
   float: left;
 }
 
-/* copiar o footer */
+.conduta {
+  
+  font-size: 19px
+}
 
-.email_cg{
+.email_cg {
   float: right;
   font-size: 120%;
-  
+  text-decoration: none;
+ 
 }
 
 a {
   color: #ffffff;
+  font-size: 16px;
+}
+
+.designer {
+  color: #fff;
+}
+
+.designer-c {
+ color: #fff;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
