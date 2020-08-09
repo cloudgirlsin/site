@@ -202,7 +202,10 @@
     autoplay: true,
     dots: true,
     loop: true,
-    items: 1
+    items: 1,     
+    autoplaySpeed: 1000,
+    dotsSpeed: 3000,
+    autoplayTimeout:20000,
   });
 
   // Portfolio details carousel

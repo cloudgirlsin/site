@@ -192,7 +192,7 @@
   // Clients carousel (uses the Owl Carousel library)
   $(".clients-carousel").owlCarousel({
     autoplay: true,
-    dots: true,
+    dots: false,
     loop: true,
     responsive: {
       0: {
@@ -204,7 +204,10 @@
       900: {
         items: 6
       }
-    }
+    },
+    autoplaySpeed: 1000,
+    dotsSpeed: 3000,
+    autoplayTimeout:1000,    
   });
 
   // Portfolio details carousel
