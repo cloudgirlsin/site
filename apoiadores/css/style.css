@@ -1,42 +1,52 @@
-.logo_img{
-    width: 112.5px;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* copiar toda essa parte para o navbar */
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 2000px;
+    padding: 0 10%;
+  }
+}
+
+/* ----- Navbar ----- */
 .bg-dark{
-    background: transparent !important;
+  background: transparent !important;
 }
 
 .bg-dark.scrolled {
-    transition: 750ms ease;
-    background: rgba(205,30,120,0.8) !important;
+  transition: 750ms ease;
+  background: rgba(205,30,120,0.8) !important;
 }
 
 .nav-link {
-    font-size: 20px;
-}
-.nav-link:hover {
-    color:#696969 !important;
-    font-weight: bold;
+  font-size: 20px;
 }
 
-/* ate aqui */
+header .nav-link:hover {
+  color:#696969 !important;
+  font-weight: bold;
+}
 
-.fundo {
-    margin: 0;
-    padding: 0;
-    background-image: url('../image/banner-site13.png');
-    max-width: 100%;
-    height: 312px;
-    background-size: 100% 100%;
-    background-position: center center;
-    font-size: 30px;
-    line-height: 1.5;
-    color: #ffffff;
+/* ----- Banner ----- */
+#hero {
+  width: 100%;
+  height: 50vh;
+  background: url('../image/banner-site13.png') top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero .container {
+  text-align: center;
+}
+
+#hero h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .img_cloud {
@@ -192,14 +202,15 @@ a {
         padding: 0;
         margin: 0;
     }
+
     
-    .fundo{
-        width: 100vw;
-        height: 60vh;
-        background-image: url('../image/banner-site13.png');
-        background-size: cover;
-      
-    }
+        #hero {
+          width: 100%;
+          height: 50vh;
+          background: url('../image/banner-site13.png') top center;
+          background-size: cover;
+          position: relative;
+        }
 
     .img_cloud {
         margin-top: 10%;
