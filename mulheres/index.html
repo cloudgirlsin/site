@@ -73,7 +73,7 @@
               <a class="nav-link active" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Sobre<span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="../sobre/index.html">Sobre<span class="sr-only"></a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="../organizadoras/index.html">Organizadoras</a>
@@ -120,12 +120,12 @@
             <div class="content">
               <h3>Projeto Mulheres</h3>
               <p>
-                O projeto Mulheres tem o objetivo de despertar o interesse das mulheres no dia dia das grandes empresas. 
-                Atraves de palestras de grandes mulheres que trabalham em grandes empresas vamos abordar.
+                O projeto Mulheres tem o objetivo de despertar o interesse das mulheres no dia a dia das grandes empresas. 
+                Através de palestras de grandes mulheres que trabalham em grandes empresas vamos abordar:
                     
               </p>
               <div class="text-center">
-                <a href="#about" class="more-btn">Saiba mais <i class="bx bx-chevron-right"></i></a>
+                <a href="#about" class="more-btn">Mais detalhes <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -136,7 +136,7 @@
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-receipt"></i>
                     <h4>Profissões</h4>
-                    <p>Quais são as profissoes dentro da empresa</p>
+                    <p>Quais são as profissões dentro da empresa</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
@@ -224,7 +224,7 @@
               </div>
               <div class="member-info">
                 <h4>Alessandra Cosme</h4>
-                <span>Gerente de Mrketing de PC</span>
+                <span>Gerente de Marketing de PC</span>
               </div>
             </div>
           </div>
@@ -429,29 +429,31 @@
     <div class="footer_cg">
       <div class="container">
         <div class="row">
-          <div class="rede_socais my-5 mb-5 col-md">
+          <div class="rede_socais my-5 col-md">
             <div class="icones_redes_cg">
-              <a class="redes_socias_cg" href="https://www.instagram.com/cloudgirlsin/?hl=pt-br">
-                <img class="icon_redes" src="assets/img/instagram.png" alt="Instagram">
+              <a class="redes_socias_cg" href="https://www.instagram.com/cloudgirlsin/?hl=pt-br" target="_blank">
+                <img class="icon_redes" src="../image/instagram.png" alt="Instagram">
               </a>
 
-              <a class="redes_sociais_cg" href="https://www.facebook.com/cloudgirlsin/">
-                <img class="icon_redes" src="assets/img/facebook.png" alt="facebook">
+              <a class="redes_sociais_cg" href="https://www.facebook.com/cloudgirlsin/" target="_blank">
+                <img class="icon_redes" src="../image/facebook.png" alt="facebook">
               </a>
 
-              <a class="redes_sociais_cg" href="https://www.linkedin.com/company/cloudgirlsin/">
-                <img class="icon_redes" src="assets/img/linkedin.png" alt="linkedin">
+              <a class="redes_sociais_cg" href="https://www.linkedin.com/company/cloudgirlsin/" target="_blank">
+                <img class="icon_redes" src="../image/linkedin.png" alt="linkedin">
               </a>
             </div>
-            <div class="email_cg">
-              <a href="mailto:contato@cloudgirls.com.b?subjetc=Assunto">contato@cloudgirls.com.br</a>
+
+            <div class="designed ">
+              <p class="designer-c my-2 text-center">Desenvolvido com dedicação pelas Mentees<a href="../desenvolvedoras/index.html">💜 (clique aqui)</a> <a class="email_cg" href="mailto:contato@cloudgirls.com.b?subjetc=Assunto">contato@cloudgirls.com.br</a></p>
             </div>
+            <div class="conduta my-4 text-left">
+              <a href="../conduta.html">Termo de conduta</a>
+            </div>  
           </div>
-        </div>
       </div>
     </div>
   </footer>
-
  
 
   <!-- Vendor JS Files -->
@@ -468,13 +470,19 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script src="assets/js/main.js"></script>
-    <script>
-      $(window).scroll(function () {
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50)
+  <script> 
+    $('.navbar-collapse').on('shown.bs.collapse', function() {
+      $('nav').toggleClass('scrolled', true)
+    });
 
-      });
-    </script>
+    $('.navbar-collapse').on('hidden.bs.collapse', function() {
+      $('nav').toggleClass('scrolled', false)
+    });    
+
+    $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 1)
+    });
+  </script>
 
 </body>
 
