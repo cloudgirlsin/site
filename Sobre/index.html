@@ -38,7 +38,7 @@
           <a class="navbar-brand" href="#">
               <img src="assets/img/logo.png" width="55" height="55" class="d-inline-block">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsite"
+          <button id="batatinha" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsite"
               aria-controls="navbarsite" aria-expanded="false" aria-label="toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -79,7 +79,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-6 col-lg-8 mt-5 section-title">
-          <h2>Sobre</h2>
+          <h2 class="sobre text-center">Sobre</h2>
         </div>
       </div>
     </div>
@@ -93,7 +93,7 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/fotos-siteFoto-11.png" class="img-fluid" alt="">
+            <img src="assets/img/fotos-siteFoto-7.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
 
@@ -122,7 +122,6 @@
       <div class="container" data-aos="zoom-in">
 
         <div class="owl-carousel testimonials-carousel">
-
           <div class="testimonial-item">
             <img src="assets/img/testimonials/Lais.jpg" class="testimonial-img" alt="">
             <h3>Lais</h3>
@@ -156,10 +155,6 @@ Também vi como é importante o apoio que damos umas às outras e como essa troc
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
-
-          
-          </div>
-
         </div>
 
       </div>
@@ -167,30 +162,33 @@ Também vi como é importante o apoio que damos umas às outras e como essa troc
 
     <footer>
       <div class="footer_cg">
-          <div class="container">
-              <div class="row">
-                  <div class="rede_socais my-5 mb-5 col-md">
-                      <div class="icones_redes_cg">
-                          <a class="redes_socias_cg" href="https://www.instagram.com/cloudgirlsin/?hl=pt-br">
-                              <img class="icon_redes" src="assets/img/instagram.png" alt="Instagram">
-                          </a>
+        <div class="container">
+          <div class="row">
+            <div class="rede_socais my-5 col-md">
+              <div class="icones_redes_cg">
+                <a class="redes_socias_cg" href="https://www.instagram.com/cloudgirlsin/?hl=pt-br" target="_blank">
+                  <img class="icon_redes" src="../image/instagram.png" alt="Instagram">
+                </a>
 
-                          <a class="redes_sociais_cg" href="https://www.facebook.com/cloudgirlsin/">
-                              <img class="icon_redes" src="assets/img/facebook.png" alt="facebook">
-                          </a>
+                <a class="redes_sociais_cg" href="https://www.facebook.com/cloudgirlsin/" target="_blank">
+                  <img class="icon_redes" src="../image/facebook.png" alt="facebook">
+                </a>
 
-                          <a class="redes_sociais_cg" href="https://www.linkedin.com/company/cloudgirlsin/">
-                              <img class="icon_redes" src="assets/img/linkedin.png" alt="linkedin">
-                          </a>
-                      </div>
-                      <div class="email_cg">
-                          <a href="mailto:contato@cloudgirls.com.b?subjetc=Assunto">contato@cloudgirls.com.br</a>
-                      </div>
-                  </div>
+                <a class="redes_sociais_cg" href="https://www.linkedin.com/company/cloudgirlsin/" target="_blank">
+                  <img class="icon_redes" src="../image/linkedin.png" alt="linkedin">
+                </a>
               </div>
-          </div>
+
+              <div class="designed ">
+                <p class="designer-c my-2 text-center">Desenvolvido com dedicação pelas Mentees<a href="./desenvolvedoras/index.html">💜 (clique aqui)</a> <a class="email_cg" href="mailto:contato@cloudgirls.com.b?subjetc=Assunto">contato@cloudgirls.com.br</a></p>
+              </div>
+              <div class="conduta my-4 text-left">
+                <a href="../conduta.html">Termo de conduta</a>
+              </div>  
+            </div>
+        </div>
       </div>
-  </footer>
+    </footer>
 
     
 
@@ -209,11 +207,18 @@ Também vi como é importante o apoio que damos umas às outras e como essa troc
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script> 
-    $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50)
-
+    $('.navbar-collapse').on('shown.bs.collapse', function() {
+      $('nav').toggleClass('scrolled', true)
     });
-</script>
+
+    $('.navbar-collapse').on('hidden.bs.collapse', function() {
+      $('nav').toggleClass('scrolled', false)
+    });    
+
+    $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 1)
+    });
+  </script>
 
 </body>
 
