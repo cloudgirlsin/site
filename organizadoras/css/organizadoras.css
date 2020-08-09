@@ -8,21 +8,81 @@
     background: #cd1e78cc !important;
 }
 
-.nav-link {
-    font-size: 20px;
+.section-bg{
+    padding: 20px 0 !important;
+
 }
-.nav-link:hover {
-    color:#696969 !important;
-   
-}
+/* ate aqui */
 /* fim do cabeçalho */
 
 h2, p {
     font-family: "Roboto", sans-serif;
     color: #4f4f8f;   
 }
+  
+.bg-dark{
+    background: transparent !important;
+}
+  
+.bg-dark.scrolled {
+    transition: 750ms ease;
+    background: rgba(205,30,120,0.8) !important;
+}
+  
+.nav-link {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+.nav-link:hover {
+    text-decoration-line: underline;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+  
+@media (max-width: 991px) {
+
+    #nav-container .navbar{
+        padding: 0;
+    }
+  
+  .nav-link {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        padding: 4px;
+    }
+    
+  
+}   
+  
+
+/* ----- Banner ----- */
+#hero {
+    width: 100%;
+    height: 50vh;
+    background: url("../img/banner-site28.png") top center;
+    background-size: cover;
+    position: relative;
+}
+
 
 h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 38px;
+    }
+}
+
+.text-org {
+    font-family: "Roboto", sans-serif;
+    font-size: 125%;
+    color: #4f4f8f;
     font-weight: bold;
 }
 
@@ -129,40 +189,54 @@ h2 {
 
 /* ínicio do rodapé */
 .footer_cg{
-    background-color: #cd1e78;    
-}
-
+    background-color: #cd1e78;
+  }
+  
 .icon_redes{
     padding: 0.5rem;
-    text-align: left;    
-}
-
+    text-align: left;
+    
+  }
+  
 .icones_redes_cg{
     float: left;
-}
-
+  }
+  
+.conduta {
+    
+    font-size: 19px
+  }
+  
 .email_cg{
     float: right;
     font-size: 120%;
-    color: #ffffff;
-}
-
-.email_cg{
-    float: right;
-    font-size: 120%;    
-}
-
+    text-decoration: none;
+   
+  }
+  
 a {
     color: #ffffff;
+    font-size: 16px ;
+}
+  
+.designer {
+    color: #fff;
+    font-size: 16px;
+}
+  
+.designer-c {
+   color: #fff;
+   font-size: 16px;
+}
+  
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
 /* fim do rodapé */
 
 /* ajuste para desktop */
 @media only screen and (min-width: 769px){
-    .navbar {
-        background-color: #4848784d;
-    }
-
     body, html {
         width: 100%;
         height: 100%;       

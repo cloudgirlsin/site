@@ -27,7 +27,8 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
 
 </head>
 
@@ -78,15 +79,12 @@
 
 
   <section id="hero" class="d-flex align-items-center justify-content-center">
-    <div class="container" data-aos="fade-up">
-
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+    <div class="container">
+      <div class="row justify-content-center">
         <div class="col-xl-6 col-lg-8 mt-5 section-title">
-
-          <h2>Mentoras</h2>
+          <h2 class="sobre text-center">Mentoras</h2>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -99,7 +97,7 @@
 
         <div class="section-title">
           
-          <p>Um sonho é apenas um desejo, até o momento em que você começa a atuar sobre ele, e propõe-se
+          <p class="text-mentoras text-center">Um sonho é apenas um desejo, até o momento em que você começa a atuar sobre ele, e propõe-se
             a
             transformá-lo em uma meta.</p>
         </div>
@@ -268,25 +266,28 @@
       <div class="footer_cg">
         <div class="container">
           <div class="row">
-            <div class="rede_socais my-5 mb-5 col-md">
+            <div class="rede_socais my-5 col-md">
               <div class="icones_redes_cg">
-                <a class="redes_socias_cg" href="https://www.instagram.com/cloudgirlsin/?hl=pt-br">
-                  <img class="icon_redes" src="assets/img/instagram.png" alt="Instagram">
+                <a class="redes_socias_cg" href="https://www.instagram.com/cloudgirlsin/?hl=pt-br" target="_blank">
+                  <img class="icon_redes" src="../image/instagram.png" alt="Instagram">
                 </a>
 
-                <a class="redes_sociais_cg" href="https://www.facebook.com/cloudgirlsin/">
-                  <img class="icon_redes" src="assets/img/facebook.png" alt="facebook">
+                <a class="redes_sociais_cg" href="https://www.facebook.com/cloudgirlsin/" target="_blank">
+                  <img class="icon_redes" src="../image/facebook.png" alt="facebook">
                 </a>
 
-                <a class="redes_sociais_cg" href="https://www.linkedin.com/company/cloudgirlsin/">
-                  <img class="icon_redes" src="assets/img/linkedin.png" alt="linkedin">
+                <a class="redes_sociais_cg" href="https://www.linkedin.com/company/cloudgirlsin/" target="_blank">
+                  <img class="icon_redes" src="../image/linkedin.png" alt="linkedin">
                 </a>
               </div>
-              <div class="email_cg">
-                <a href="mailto:contato@cloudgirls.com.b?subjetc=Assunto">contato@cloudgirls.com.br</a>
+
+              <div class="designed ">
+                <p class="designer-c my-2 text-center">Desenvolvido com dedicação pelas Mentees<a href="./desenvolvedoras/index.html">💜 (clique aqui)</a> <a class="email_cg" href="mailto:contato@cloudgirls.com.b?subjetc=Assunto">contato@cloudgirls.com.br</a></p>
               </div>
+              <div class="conduta my-4 text-left">
+                <a href="../conduta.html">Termo de conduta</a>
+              </div>  
             </div>
-          </div>
         </div>
       </div>
     </footer>
@@ -307,10 +308,17 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    <script>
-      $(window).scroll(function () {
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50)
-
+    <script> 
+      $('.navbar-collapse').on('shown.bs.collapse', function() {
+        $('nav').toggleClass('scrolled', true)
+      });
+  
+      $('.navbar-collapse').on('hidden.bs.collapse', function() {
+        $('nav').toggleClass('scrolled', false)
+      });    
+  
+      $(window).scroll(function() {
+          $('nav').toggleClass('scrolled', $(this).scrollTop() > 1)
       });
     </script>
 

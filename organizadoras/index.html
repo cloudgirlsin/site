@@ -74,7 +74,7 @@
 
     <div class="container">
       <div class="section-title">
-        <p>As organizadoras do Cloud Girls, são mulheres
+        <p class="text-org">As organizadoras do Cloud Girls, são mulheres
           que dedicam o seu tempo voluntariamente
           para apoiarem outras mulheres.
         </p>
@@ -391,30 +391,33 @@
   <footer>
     <div class="footer_cg">
       <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="rede_socais my-5 mb-5 col-md">
+        <div class="row">
+          <div class="rede_socais my-5 col-md">
             <div class="icones_redes_cg">
               <a class="redes_socias_cg" href="https://www.instagram.com/cloudgirlsin/?hl=pt-br" target="_blank">
-                <img class="icon_redes" src="./img/instagram.png" alt="Instagram">
+                <img class="icon_redes" src="../image/instagram.png" alt="Instagram">
               </a>
 
               <a class="redes_sociais_cg" href="https://www.facebook.com/cloudgirlsin/" target="_blank">
-                <img class="icon_redes" src="./img/facebook.png" alt="facebook">
+                <img class="icon_redes" src="../image/facebook.png" alt="facebook">
               </a>
 
               <a class="redes_sociais_cg" href="https://www.linkedin.com/company/cloudgirlsin/" target="_blank">
-                <img class="icon_redes" src="./img/linkedin.png" alt="linkedin">
+                <img class="icon_redes" src="../image/linkedin.png" alt="linkedin">
               </a>
             </div>
-            <div class="email_cg">
-              <a href="mailto:contato@cloudgirls.com.b?subjetc=Assunto" target="_blank">contato@cloudgirls.com.br</a>
+
+            <div class="designed ">
+              <p class="designer-c my-2 text-center">Desenvolvido com dedicação pelas Mentees<a href="./desenvolvedoras/index.html">💜 (clique aqui)</a> <a class="email_cg" href="mailto:contato@cloudgirls.com.b?subjetc=Assunto">contato@cloudgirls.com.br</a></p>
             </div>
+            <div class="conduta my-4 text-left">
+              <a href="../conduta.html">Termo de conduta</a>
+            </div>  
           </div>
-        </div>
       </div>
     </div>
-    </div>
   </footer>
+
   <!-- Fim do Rodapé -->
 
 
@@ -436,10 +439,17 @@
   <!-- fim plugin de acessibilidade -->
 
   <!-- js para fazer a trasição de cor do navbar -->
-  <script>
-    $(window).scroll(function () {
-      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50)
+  <script> 
+    $('.navbar-collapse').on('shown.bs.collapse', function() {
+      $('nav').toggleClass('scrolled', true)
+    });
 
+    $('.navbar-collapse').on('hidden.bs.collapse', function() {
+      $('nav').toggleClass('scrolled', false)
+    });    
+
+    $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 1)
     });
   </script>
 
