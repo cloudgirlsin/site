@@ -85,24 +85,24 @@ header .nav-link:hover {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
   }
     
-  @media (min-width: 1024px) {
-    #hero {
+ @media (min-width: 1024px) {
+   #hero {
       background-attachment: fixed;
     }
   }
   
   @media (max-width: 768px) {
-    #hero {
-      height: auto;
-    }
-    
+    #hero .container {
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
     #hero h2 {
-      font-size: 20px;
-      line-height: 24px;
-      width: 80%;
-      text-align: center;
+     font-size: 2.5em;
     }
   }
 
@@ -139,6 +139,10 @@ header .nav-link:hover {
 
   .botao-mentoria .nav-link:hover {
       color: #4f4f8f !important;
+  }
+
+  .nav-descritivo-projetos {
+    padding: 0 20px;
   }
 
 /* ----- Carrossel ----- */
@@ -190,9 +194,9 @@ a {
         padding: 0%;
     }
 
-    .nav-link-texto {
+/*    .nav-link-texto {
         font-size: 85% !important; 
-    }
+    }*/
 
     /* .tab-content {
         text-align: left !important;
