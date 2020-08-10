@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -268,6 +268,17 @@
     
       <!-- Template Main JS File -->
       <script src="assets/js/main.js"></script>
+
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
         
         <!-- js para fazer a trasição de cor do navbar -->
       <script> 
@@ -283,6 +294,16 @@
               $('nav').toggleClass('scrolled', $(this).scrollTop() > 1)
           });
       </script>
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121781635-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121781635-1');
+</script>
     
     
     </body>

@@ -55,11 +55,7 @@ body {
     margin: 0;
 }
 
-/*.video-background {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-}*/
+
 
 #bgvid {
     position: relative;
@@ -405,7 +401,7 @@ body {
 
 .email_cg{
     float: right;
-    font-size: 120%;
+    font-size: 14px;
     text-decoration: none;
    
 }
@@ -427,9 +423,6 @@ a:hover {
     color: #ffffff;
     text-decoration: none;
 }
-/* ate aqui */
-
-/* ajuste para desktop*/
 
 @media only screen and (min-width: 769px){
     body, html {
