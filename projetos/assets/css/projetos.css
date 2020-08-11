@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
       font-size: 18px;
-      font-family: "Open Sans", sans-serif;
+      font-family: "Roboto", sans-serif;
       padding: 4px;
   }
   
@@ -101,7 +101,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
     text-align: center;
   }
     
@@ -148,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.4s;
     border-radius: 4px;
     margin: 1em 3em 0 3em;
+    padding: .5rem 1rem !important;
   }
 
   .botao-mentoria .nav-link {
@@ -160,6 +160,13 @@ h1, h2, h3, h4, h5, h6 {
 
   .nav-descritivo-projetos {
     padding: 0 20px;
+  }
+
+  @media (max-width: 991px) {
+
+   .nav-link-texto {
+    padding: .5rem 1rem !important;
+  }
   }
 
 /* ----- Carrossel ----- */
@@ -226,7 +233,7 @@ a:hover {
 }
 
 /* ----- Mobile ----- */
-@media (max-width: 570px) {
+@media (max-width: 768px) {
     .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4,
     .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1,
     .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4,
