@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
+    
   }
     
   @media (min-width: 1024px) {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     #hero h2 {
-      font-size: 20px;
+      font-size: 30px;
       line-height: 24px;
       width: 80%;
       text-align: center;
