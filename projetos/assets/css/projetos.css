@@ -209,7 +209,7 @@ a {
 
 .email_cg {
   float: right;
-  font-size: 120%;
+  font-size: 16px;
   text-decoration: none;
  
 }
@@ -230,6 +230,21 @@ a {
 a:hover {
   color: #ffffff;
   text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .email_cg {
+      font-size: 14px;
+      text-align: center;
+
+  }
+  .designer-c {
+      font-size: 14px;
+  }
+
+  .icon_redes {
+      padding: 3px;
+  }
 }
 
 /* ----- Mobile ----- */
