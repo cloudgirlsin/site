@@ -116,10 +116,10 @@ section {
   background-color: #b4e0ff;
 }
 
-.section-title {
+/*.section-title {
   text-align: center;
   padding-bottom: 30px;
-}
+}*/
 
 .section-title h2 {
   font-size: 32px;
@@ -130,6 +130,7 @@ section {
   position: relative;
   text-align: center;
 }
+
 
 /* .section-title h2::before {
   content: '';
