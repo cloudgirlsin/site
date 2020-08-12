@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
       font-size: 18px;
-      font-family: "Open Sans", sans-serif;
+      font-family: "Roboto", sans-serif;
       padding: 4px;
   }
   
@@ -101,25 +101,24 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    
+    text-align: center;
   }
     
-  @media (min-width: 1024px) {
-    #hero {
+ @media (min-width: 1024px) {
+   #hero {
       background-attachment: fixed;
     }
   }
   
   @media (max-width: 768px) {
-    #hero {
-      height: auto;
-    }
-    
+    #hero .container {
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
     #hero h2 {
-      font-size: 30px;
-      line-height: 24px;
-      width: 80%;
-      text-align: center;
+     font-size: 2.5em;
     }
   }
 
@@ -148,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.4s;
     border-radius: 4px;
     margin: 1em 3em 0 3em;
+    padding: .5rem 1rem !important;
   }
 
   .botao-mentoria .nav-link {
@@ -156,6 +156,17 @@ h1, h2, h3, h4, h5, h6 {
 
   .botao-mentoria .nav-link:hover {
       color: #4f4f8f !important;
+  }
+
+  .nav-descritivo-projetos {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 991px) {
+
+   .nav-link-texto {
+    padding: .5rem 1rem !important;
+  }
   }
 
 /* ----- Carrossel ----- */
@@ -222,7 +233,7 @@ a:hover {
 }
 
 /* ----- Mobile ----- */
-@media (max-width: 570px) {
+@media (max-width: 768px) {
     .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4,
     .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1,
     .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4,
@@ -237,9 +248,9 @@ a:hover {
         padding: 0%;
     }
 
-    .nav-link-texto {
+/*    .nav-link-texto {
         font-size: 85% !important; 
-    }
+    }*/
 
     /* .tab-content {
         text-align: left !important;

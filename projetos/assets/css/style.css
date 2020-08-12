@@ -121,6 +121,15 @@ section {
   padding-bottom: 30px;
 }*/
 
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+/*  text-transform: uppercase;*/
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: center;
+}
 
 
 /* .section-title h2::before {
