@@ -35,7 +35,8 @@
               <a class="nav-link active" href="../sobre/index.html">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="../organizadoras/index.html">Organizadoras<span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="../organizadoras/index.html">Organizadoras<span
+                  class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="../eventos/index.html">Eventos</a>
@@ -282,6 +283,23 @@
       </div>
 
       <div class="row justify-content-md-center">
+        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
+          <div class="member">
+            <img src="./img/lais-pereira.jpeg" class="img-fluid" alt="Organizadora Laís Pereira">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Laís Pereira</h4>
+                <span>Organizadora Recife</span>
+              </div>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/la%C3%ADs-pereira-614b14133/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/laisps" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
           <div class="member">
             <img src="./img/mirian-montezi.jpg" class="img-fluid" alt="Organizadora Mirian Montezi">
@@ -367,6 +385,7 @@
         </div>
       </div>
     </div>
+    </div>
   </section>
   <!-- Fim das Organizadoras -->
 
@@ -389,21 +408,24 @@
                 <img class="icon_redes" src="../image/linkedin.png" alt="linkedin">
               </a>
 
-              <a class="redes_sociais_cg" href="https://www.youtube.com/channel/UCXnSPiXhS2qsz1pVzWkBAVg" target="_blank">
+              <a class="redes_sociais_cg" href="https://www.youtube.com/channel/UCXnSPiXhS2qsz1pVzWkBAVg"
+                target="_blank">
                 <img class="icon_redes" src="../image/youtube.png" alt="youtube">
               </a>
 
             </div>
 
             <div class="designed">
-              <p class="designer-c my-2 text-center">Desenvolvido com dedicação pelas Mentees<a href="../desenvolvedoras/index.html">💜 (clique aqui)</a> <a class="email_cg" href="mailto:contato@cloudgirls.com.b?subjetc=Assunto">contato@cloudgirls.com.br</a></p>
+              <p class="designer-c my-2 text-center">Desenvolvido com dedicação pelas Mentees<a
+                  href="../desenvolvedoras/index.html">💜 (clique aqui)</a> <a class="email_cg"
+                  href="mailto:contato@cloudgirls.com.b?subjetc=Assunto">contato@cloudgirls.com.br</a></p>
             </div>
             <div class="conduta my-4 text-left">
               <a href="../conduta.html">Termo de conduta</a>
-            </div>  
+            </div>
           </div>
+        </div>
       </div>
-    </div>
   </footer>
 
   <!-- Fim do Rodapé -->
@@ -427,18 +449,18 @@
   <!-- fim plugin de acessibilidade -->
 
   <!-- js para fazer a trasição de cor do navbar -->
-  
-  <script> 
-    $('.navbar-collapse').on('shown.bs.collapse', function() {
+
+  <script>
+    $('.navbar-collapse').on('shown.bs.collapse', function () {
       $('nav').toggleClass('scrolled', true)
     });
 
-    $('.navbar-collapse').on('hidden.bs.collapse', function() {
+    $('.navbar-collapse').on('hidden.bs.collapse', function () {
       $('nav').toggleClass('scrolled', false)
-    });    
+    });
 
-    $(window).scroll(function() {
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 1)
+    $(window).scroll(function () {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 1)
     });
   </script>
 
