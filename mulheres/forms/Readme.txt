@@ -1,2 +1,2 @@
 Fully working PHP/AJAX contact form script is available in the pro version of the template.
-You can buy it from: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
+You can buy it from: https://bootstrapmade.com/serenity-bootstrap-corporate-template/
