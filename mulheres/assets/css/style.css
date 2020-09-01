@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .texto {
-  font-size: 25px;
+  font-size: 1.5rem;
   color: #025159;
 }
 
@@ -236,9 +236,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-height: 500px) {
-  #hero {
-    height: 120vh;
+.imagem3{
+  max-width: 80% !important;
+}
+
+@media (min-height: 992px) {
+  .img-fluid {
+    max-width: 80%;
   }
 }
 
@@ -584,36 +588,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Work Process
---------------------------------------------------------------*/
-.work-process .content + .content {
-  margin-top: 100px;
-}
-
-.work-process .content h3 {
-  font-weight: 600;
-  font-size: 26px;
-}
-
-.work-process .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.work-process .content ul li {
-  padding-bottom: 10px;
-}
-
-.work-process .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #94c045;
-}
-
-.work-process .content p:last-child {
-  margin-bottom: 0;
-}
 
 /*--------------------------------------------------------------
 # Our Skills
