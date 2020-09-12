@@ -4,8 +4,8 @@
 <h1 align=center>Site Cloud Girls</h1>
 
 <p align=center><img src= "https://img.shields.io/static/v1?label=Status&message=Em%20desenvolvimento&color=green&style=flat"> 
- <img src= "https://img.shields.io/static/v1?label=Linguagem&message=HTML5&color=red&style=flat"> 
- <img src= "https://img.shields.io/static/v1?label=Linguagem&message=CSS3&color=blue&style=flat"> 
+ <img src= "https://img.shields.io/static/v1?label=Linguagem&message=HTML%205&color=red&style=flat"> 
+ <img src= "https://img.shields.io/static/v1?label=Linguagem&message=CSS%203&color=blue&style=flat"> 
  <img src= "https://img.shields.io/static/v1?label=Linguagem&message=JavaScript&color=yellow&style=flat&"> 
  <img src= "https://img.shields.io/static/v1?label=Biblioteca&message=Bootstrap&color=9cf&style=flat"></p>
 
