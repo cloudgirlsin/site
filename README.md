@@ -1,4 +1,4 @@
-<img src="https://github.com/thamiavicente/photos/blob/master/banner-site30.png">
+<img src="https://github.com/thamiavicente/files/blob/master/Fotos/banner-site30.png">
 
 <p align=center><img src="https://github.com/cloudgirlsin/site/blob/master/image/logo.png" width=70 ></p>
 <h1 align=center>Site Cloud Girls</h1>
