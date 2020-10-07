@@ -50,13 +50,12 @@
 
 ```
 git clone https://github.com/cloudgirlsin/site.git
-
 ```
 
 <p>2. Como os arquivos de bootstrap já estão instalados, basta abrir no seu editor de texto favorito.</p>
 
 ## :interrobang: Solução de problemas
-<p>Para ver os problemas que surgiram durante o desenvolvimento e as soluções que encontramos, acesse as [issues do projeto] (https://github.com/cloudgirlsin/site/issues)</p>
+<p>Para ver os problemas que surgiram durante o desenvolvimento e as soluções que encontramos, acesse as [issues do projeto](https://github.com/cloudgirlsin/site/issues)</p>
 
 ## :cloud: Contribuintes
 
