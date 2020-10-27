@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 .texto {
   font-size: 17px;
   color: #424242;
-  line-height: 28px;
+  line-height: 26px;
 }
 
 .titulo {
@@ -194,24 +194,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 5px solid #025159;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  background: #025159;
-}
 
 @media (min-width: 1024px) {
   #hero {
@@ -404,11 +386,11 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#cd1e78 50%, rgba(205, 30, 120, 0.4) 52%);
+  background: radial-gradient(#484878 50%, rgba(72, 72, 120, 0.3) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
-  left: calc(50% - 47px);
+  left: calc(35% - 47px);
   top: calc(50% - 47px);
   overflow: hidden;
 }
