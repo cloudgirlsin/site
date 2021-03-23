@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .bg-dark {
-  background: #0f62fe !important;
+  background: #fe0fa2 !important;
 }
 
 .bg-dark.scrolled {
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, #0f62fe 0%, #0f62fe 100%);
+  background: linear-gradient(0deg, #ee4fe6 0%, #fd8a3eef 100%);
   padding: 0;
 }
 
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #0f62fe;
+  border: 2px solid #fe0fd6;
 }
 
 #hero .btn-get-started:hover {
@@ -289,7 +289,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #0f62fe;
+  background: #fe0fde;
   margin: 4px 10px;
 }
 
@@ -381,7 +381,7 @@ section {
 }
 
 .about .content .btn-learn-more:hover {
-  background: #0f62fe;
+  background: #fe0ff2;
   color: #fff;
   text-decoration: none;
 }
@@ -416,13 +416,13 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #0f62fe;
+  color: #e20ffe;
 }
 
 .features .nav-link.active {
-  background: #0f62fe;
+  background: #e20ffe;
   color: #fff;
-  border-color: #0f62fe;
+  border-color: #e20ffe;
 }
 
 @media (max-width: 768px) {
@@ -463,7 +463,7 @@ section {
 .features .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #0f62fe;
+  color: #e20ffe;
 }
 
 .features .tab-pane p:last-child {
@@ -498,7 +498,7 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #0f62fe;
+  background: #e20ffe;
 }
 
 .cta-btn:hover {
@@ -550,13 +550,13 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #0f62fe;
+  color: #e20ffe;
   margin: 0 3px;
   padding-top: 7px;
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: rgba(15, 98, 254, 0.8);
+  background: rgba(254, 15, 234, 0.8);
   display: inline-block;
   transition: ease-in-out 0.3s;
   color: #fff;
